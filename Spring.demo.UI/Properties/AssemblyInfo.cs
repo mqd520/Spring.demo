@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Spring.demo")]
+[assembly: AssemblyTitle("Spring.demo.UI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Spring.demo")]
+[assembly: AssemblyProduct("Spring.demo.UI")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("79799aec-85b5-4848-8ab1-9dd3b40d8bf6")]
+[assembly: Guid("4934377a-462e-4a89-9907-eb97f5905960")]
 
 // 程序集的版本信息由下面四个值组成: 
 //

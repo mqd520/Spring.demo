@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Spring.demo.Properties
+namespace Spring.demo.UI.Properties
 {
 
 
