@@ -102,12 +102,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\Spring.demo.BLL.xml" />
-    <Content Include="Config\Spring.demo.Web.xml" />
-    <Content Include="Config\Spring.demo.DAL.xml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <EmbeddedResource Include="spring.objects.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

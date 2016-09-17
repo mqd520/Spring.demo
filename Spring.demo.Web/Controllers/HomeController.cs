@@ -21,7 +21,6 @@ namespace Spring.demo.Web.Controllers
             if (_bll1 != null)
             {
                 _bll1.Fun1();
-                //return Content("_bll1");
             }
             return View();
         }

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object type="Spring.demo.Winform.Form1, Spring.demo.Winform"  singleton="false">
+    <property name="_string" value="_string"/>
+    <property name="_bll1" ref="Spring.demo.BLL.BLL1"/>
+  </object>
+
+</objects>
+
