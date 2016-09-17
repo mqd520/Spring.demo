@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object id="Spring.demo.DAL.DAL1" type="Spring.demo.DAL.DAL1, Spring.demo.DAL"  singleton="false">
+  </object>
+
+</objects>

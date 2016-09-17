@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.demo.UI", "Spring.demo.UI\Spring.demo.UI.csproj", "{6442E3F0-270A-4C0F-A656-5BEEB52978FB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.demo.IBLL", "Spring.demo.IBLL\Spring.demo.IBLL.csproj", "{C29E14B2-B094-449E-8F17-2B0B0F563955}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.demo.BLL", "Spring.demo.BLL\Spring.demo.BLL.csproj", "{2187240A-67F2-4C98-B0AE-AFC3E99816CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.demo.Web", "Spring.demo.Web\Spring.demo.Web.csproj", "{A00CEA32-DFA2-4045-9B7D-B91EA3534946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.demo.IDAL", "Spring.demo.IDAL\Spring.demo.IDAL.csproj", "{447F9E42-699E-4375-BFC6-CE07474EC3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring.demo.DAL", "Spring.demo.DAL\Spring.demo.DAL.csproj", "{AB9D8B3F-8022-41CA-AB76-A4833251B15E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6442E3F0-270A-4C0F-A656-5BEEB52978FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6442E3F0-270A-4C0F-A656-5BEEB52978FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6442E3F0-270A-4C0F-A656-5BEEB52978FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6442E3F0-270A-4C0F-A656-5BEEB52978FB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C29E14B2-B094-449E-8F17-2B0B0F563955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C29E14B2-B094-449E-8F17-2B0B0F563955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29E14B2-B094-449E-8F17-2B0B0F563955}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +31,14 @@ Global
 		{A00CEA32-DFA2-4045-9B7D-B91EA3534946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A00CEA32-DFA2-4045-9B7D-B91EA3534946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A00CEA32-DFA2-4045-9B7D-B91EA3534946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447F9E42-699E-4375-BFC6-CE07474EC3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447F9E42-699E-4375-BFC6-CE07474EC3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447F9E42-699E-4375-BFC6-CE07474EC3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447F9E42-699E-4375-BFC6-CE07474EC3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9D8B3F-8022-41CA-AB76-A4833251B15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9D8B3F-8022-41CA-AB76-A4833251B15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9D8B3F-8022-41CA-AB76-A4833251B15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9D8B3F-8022-41CA-AB76-A4833251B15E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

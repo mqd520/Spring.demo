@@ -104,6 +104,7 @@
   <ItemGroup>
     <Content Include="Config\Spring.demo.BLL.xml" />
     <Content Include="Config\Spring.demo.Web.xml" />
+    <Content Include="Config\Spring.demo.DAL.xml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
@@ -123,9 +124,17 @@
       <Project>{2187240a-67f2-4c98-b0ae-afc3e99816cf}</Project>
       <Name>Spring.demo.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Spring.demo.DAL\Spring.demo.DAL.csproj">
+      <Project>{ab9d8b3f-8022-41ca-ab76-a4833251b15e}</Project>
+      <Name>Spring.demo.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Spring.demo.IBLL\Spring.demo.IBLL.csproj">
       <Project>{c29e14b2-b094-449e-8f17-2b0b0f563955}</Project>
       <Name>Spring.demo.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spring.demo.IDAL\Spring.demo.IDAL.csproj">
+      <Project>{447f9e42-699e-4375-bfc6-ce07474ec3e7}</Project>
+      <Name>Spring.demo.IDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

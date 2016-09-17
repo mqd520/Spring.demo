@@ -8,6 +8,6 @@ namespace Spring.demo.IBLL
 {
     public interface IBLL1
     {
-        void test1();
+        void Fun1();
     }
 }

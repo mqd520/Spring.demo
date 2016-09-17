@@ -47,6 +47,10 @@
       <Project>{c29e14b2-b094-449e-8f17-2b0b0f563955}</Project>
       <Name>Spring.demo.IBLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Spring.demo.IDAL\Spring.demo.IDAL.csproj">
+      <Project>{447f9e42-699e-4375-bfc6-ce07474ec3e7}</Project>
+      <Name>Spring.demo.IDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C29E14B2-B094-449E-8F17-2B0B0F563955}</ProjectGuid>
+    <ProjectGuid>{447F9E42-699E-4375-BFC6-CE07474EC3E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Spring.demo.IBLL</RootNamespace>
-    <AssemblyName>Spring.demo.IBLL</AssemblyName>
+    <RootNamespace>Spring.demo.IDAL</RootNamespace>
+    <AssemblyName>Spring.demo.IDAL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL1.cs" />
+    <Compile Include="DAL1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

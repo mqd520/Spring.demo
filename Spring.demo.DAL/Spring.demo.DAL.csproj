@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C29E14B2-B094-449E-8F17-2B0B0F563955}</ProjectGuid>
+    <ProjectGuid>{AB9D8B3F-8022-41CA-AB76-A4833251B15E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Spring.demo.IBLL</RootNamespace>
-    <AssemblyName>Spring.demo.IBLL</AssemblyName>
+    <RootNamespace>Spring.demo.DAL</RootNamespace>
+    <AssemblyName>Spring.demo.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,8 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL1.cs" />
+    <Compile Include="DAL1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spring.demo.IDAL\Spring.demo.IDAL.csproj">
+      <Project>{447f9e42-699e-4375-bfc6-ce07474ec3e7}</Project>
+      <Name>Spring.demo.IDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

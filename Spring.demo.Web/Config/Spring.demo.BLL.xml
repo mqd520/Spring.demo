@@ -2,9 +2,7 @@
 <objects xmlns="http://www.springframework.net">
 
   <object id="Spring.demo.BLL.BLL1" type="Spring.demo.BLL.BLL1, Spring.demo.BLL"  singleton="false">
-    <!--<property name="Target">
-      <object type="Spring.demo.BLL.BLL1, Spring.demo.BLL"></object>
-    </property>-->
+    <property name="_dal1" ref="Spring.demo.DAL.DAL1"/>
   </object>
 
 </objects>
